@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Adavance</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <style> 
+
+input[type=submit] {
+width: 80%;
+  height: 40px;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  background-color:#0066ff;
+}
+input[type=submit]:hover {
+width: 80%;
+  height: 40px;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  background-color: #4d94ff;
+}
+
+input[type=text] {
+    width: 250px;
+padding: 10px;
+height: 40px;
+  }
+
+table {
+    margin-left: 20px;
+}
+     </style>
+    </head>
+    <body>
+
+        <h3> <a href="index.html">Google search</a> </h3>
+
+    <form action="https://google.com/search">
+
+        <table>
+                <tr>
+                    <td>All these words:</td>
+                    <td><input type="text" name="as_q"></td>
+                </tr>
+                <tr>
+                    <td>This exact word or phrase:</td>
+                    <td><input type="text" name="as_epq"></td>
+                </tr>
+                <tr>
+                    <td>Any of these words:</td>
+                    <td><input type="text" name="as_oq"></td>
+                </tr>
+                <tr>
+                    <td>None of these words:</td>
+                    <td><input type="text" name="as_eq"></td>
+                </tr>
+        </table>
+<h1> 
+        <input type="submit" value="Advance Search" class="searchbutton">
+        </form>
+    </h1>
+    </body>
+</html>
